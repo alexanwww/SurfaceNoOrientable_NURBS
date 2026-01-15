@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Castillo-Maza
+    given-names: Yheff A.
+  - family-names: Santamaria-Silupu
+    given-names: Ronald P.
+  - family-names: *******-******
+    given-names: *******
+title: "Visualization of Non-Orientable Surfaces using NURBS Geometry"
+version: "1.0.0"
+date-released: 2026-01-15
+repository-code: https://github.com/alexanwww/SurfaceNoOrientable_NURBS
+license: MIT
+type: software
