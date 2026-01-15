@@ -17,12 +17,12 @@ Además, contiene una carpeta con algunas imágenes de estas superficies no orie
 **Instalación**  
 ✔️ Descargue el archivo SuperficiesNoOrientables.py  
 ✔️ Cargue el archivo descargado en cualquier sesión de jupyter notebook o en google colab (mejor es montar con el drive para que no eliminen el archivo local).  
-  ✔️ Primero crea una carpeta en el drive (ej. ArchivosPy), luego subes el archivo SuperficiesNoOrientables.py  
-  ✔️ En el notebook donde se va a trabajar debes permitir que pueda montar el drive, luego se ejecuta estas lineas:  
-    Get[  
-    import sys  
-    ruta_carpeta = '/content/drive/MyDrive/ArchivosPy'  
-    if ruta_carpeta not in sys.path:  
-    sys.path.append(ruta_carpeta)  
-    ]  
+    ✔️ Primero crea una carpeta en el drive (ej. ArchivosPy), luego subes el archivo SuperficiesNoOrientables.py  
+    ✔️ En el notebook donde se va a trabajar debes permitir que pueda montar el drive, luego se ejecuta estas lineas:  
+      Get[  
+      import sys  
+      ruta_carpeta = '/content/drive/MyDrive/ArchivosPy'  
+      if ruta_carpeta not in sys.path:  
+      sys.path.append(ruta_carpeta)  
+      ]  
 ✔️ Finalmente se importa el archivo ejecutando esta línea: **from SuperficiesNoOrientable import Construccion, Nurbs_NonOrientPy_graph**
