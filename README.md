@@ -17,4 +17,4 @@ Además, contiene una carpeta con algunas imágenes de estas superficies no orie
 **Instalación**  
 ✔️ Descargue el archivo SuperficiesNoOrientables.py  
 ✔️ Cargue el archivo descargado en cualquier sesión de jupyter notebook o en google colab.  
-✔️ Cree un nuevo archivo donde graficará las superficies y al inicio llame: **from SuperficiesNoOrientable import Construccion, Nurbs_NonOrientPy_graph**
+✔️ Cree un nuevo archivo donde graficará las superficies y al inicio importalo usando: **from SuperficiesNoOrientable import Construccion, Nurbs_NonOrientPy_graph**
