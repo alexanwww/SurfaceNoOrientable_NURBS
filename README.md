@@ -5,16 +5,16 @@ Además, contiene una carpeta con algunas imágenes de estas superficies no orie
 **Clases**   
 ✔️ Bases_curves: Construye las funciones base B-Spline.  
 ✔️ Nurbs_curbs: Construye la curva Nurbs.  
-✔️ Construccion:   Construye pesos, nodos y puntos de control de una circunferencia.
-✔️ Nurbs_surface: Cosntruye la superficie Nurbs.
+✔️ Construccion:   Construye pesos, nodos y puntos de control de una circunferencia.  
+✔️ Nurbs_surface: Cosntruye la superficie Nurbs.  
 ✔️ Nurbs_NonOrientPy_graph: Permite visualizar las superficies no orientables.
 
 **Caracteristicas**
-✔️ Modelado de superficies no orientables mediante Nurbs.
-✔️ Controla parámetros como si visualizar enmallado y especificar los rangos de u y v en la superficie no orientable Nurbs S(u,v).
+✔️ Modelado de superficies no orientables mediante Nurbs.  
+✔️ Controla parámetros como si visualizar enmallado y especificar los rangos de u y v en la superficie no orientable Nurbs S(u,v).  
 ✔️ Renderizado en tiempo real con Plotly.
 
 **Instalación**
-✔️ Descargue el archivo SuperficiesNoOrientables.py
-✔️ Cargue el archivo descargado en cualquier sesión de jupyter notebook o en google colab.
+✔️ Descargue el archivo SuperficiesNoOrientables.py  
+✔️ Cargue el archivo descargado en cualquier sesión de jupyter notebook o en google colab.  
 ✔️ Cree un nuevo archivo donde graficará las superficies y al inicio llame: **from SuperficiesNoOrientable import Construccion, Nurbs_NonOrientPy_graph**
