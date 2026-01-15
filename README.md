@@ -9,12 +9,12 @@ Además, contiene una carpeta con algunas imágenes de estas superficies no orie
 ✔️ Nurbs_surface: Cosntruye la superficie Nurbs.  
 ✔️ Nurbs_NonOrientPy_graph: Permite visualizar las superficies no orientables.
 
-**Caracteristicas**
+**Caracteristicas**  
 ✔️ Modelado de superficies no orientables mediante Nurbs.  
 ✔️ Controla parámetros como si visualizar enmallado y especificar los rangos de u y v en la superficie no orientable Nurbs S(u,v).  
 ✔️ Renderizado en tiempo real con Plotly.
 
-**Instalación**
+**Instalación**  
 ✔️ Descargue el archivo SuperficiesNoOrientables.py  
 ✔️ Cargue el archivo descargado en cualquier sesión de jupyter notebook o en google colab.  
 ✔️ Cree un nuevo archivo donde graficará las superficies y al inicio llame: **from SuperficiesNoOrientable import Construccion, Nurbs_NonOrientPy_graph**
