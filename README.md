@@ -20,7 +20,7 @@ The repository also includes a folder with sample images of these non-orientable
 - Real-time 3D rendering powered by Plotly.  
 - Verification and error analysis for Möbius strip and Klein bottle.  
 
-##  Installation & Usage
+##  Installation and Usage
 1. Download the **SuperficieNoOrientable.ipynb** file.  
 2. Open it in **Jupyter Notebook** or **Google Colab** (mount Google Drive to avoid accidental deletion of local files).  
 3. Run the notebook to generate and visualize non-orientable surfaces.  
