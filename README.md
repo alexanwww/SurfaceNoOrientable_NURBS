@@ -1,28 +1,30 @@
 # SurfaceNoOrientable_NURBS
-Este repositorio contiene el archivo **SuperficiesNoOrientables.ipynb** dedicado a la construcción y visualización de superficies no orientables, específicamente la banda de Möbius y la botella de Klein. Para ello se utilizan curvas y superficies NURBS, aprovechando su capacidad para representar geometría suave y controlable en computación gráfica. 
-Además, contiene una carpeta con algunas imágenes de estas superficies no orienatbles que se generó con las clases del archivo .ipynb
 
-**Clases**   
-✔️ Bases_curves: Construye las funciones base B-Spline.  
-✔️ Nurbs_curbs: Construye la curva Nurbs.  
-✔️ Construccion:   Construye pesos, nodos y puntos de control de una circunferencia con radio $ a $.  
-✔️ Nurbs_surface: Cosntruye la superficie Nurbs.  
-✔️ Nurbs_NonOrientPy_graph: Permite visualizar las superficies no orientables.
+This repository contains the **SuperficieNoOrientable.ipynb** notebook, dedicated to generating control data and visualizing **non-orientable surfaces**. It includes an analysis of verification and error of the generated data for the Möbius strip and Klein bottle. Additional examples are provided to demonstrate that the **Generation_data** class is general and can handle any non-orientable surface defined topologically as a curve that is simultaneously rotated and twisted.  
 
-**Caracteristicas**  
-✔️ Modelado de superficies no orientables mediante Nurbs.  
-✔️ Controla parámetros como si visualizar enmallado y especificar los rangos de u y v en la superficie no orientable Nurbs S(u,v).  
-✔️ Renderizado en tiempo real con Plotly.
+The repository also includes a folder with sample images of these non-orientable surfaces, generated using the classes from the notebook.
 
-**Instalación**  
-✔️ Descargue el archivo SuperficiesNoOrientables.py  
-✔️ Cargue el archivo descargado en cualquier sesión de jupyter notebook o en google colab (mejor es montar con el drive para que no eliminen el archivo local).  
-&nbsp;&nbsp;&nbsp;&nbsp;✔️ Primero crea una carpeta en el drive (ej. ArchivosPy), luego subes el archivo SuperficiesNoOrientables.py  
-&nbsp;&nbsp;&nbsp;&nbsp;✔️ En el notebook donde se va a trabajar debes permitir que pueda montar el drive, luego se ejecuta estas lineas:  
-&nbsp;&nbsp;&nbsp;&nbsp;Get[  
-&nbsp;&nbsp;&nbsp;&nbsp;import sys  
-&nbsp;&nbsp;&nbsp;&nbsp;ruta_carpeta = '/content/drive/MyDrive/ArchivosPy'  
-&nbsp;&nbsp;&nbsp;&nbsp;if ruta_carpeta not in sys.path:  
-&nbsp;&nbsp;&nbsp;&nbsp;sys.path.append(ruta_carpeta)  
-&nbsp;&nbsp;&nbsp;&nbsp;]  
-✔️ Finalmente se importa el archivo ejecutando esta línea: **from SuperficiesNoOrientable import Construccion, Nurbs_NonOrientPy_graph**
+##  Classes
+| Class | Description |
+|-------|-------------|
+| **Bases_curves** | Constructs B-Spline basis functions. |
+| **Nurbs_curves** | Builds NURBS curves. |
+| **Construccion** | Generates weights, knots, and control points for a circle of radius *a*. |
+| **Nurbs_surface** | Evaluates the NURBS surface from the control data. |
+| **Nurbs_surface3D_graph** | Visualizes NURBS surfaces using the control data. |
+| **Generation_data** | Core class: constructs control data for non-orientable surfaces. This data can be used with `Nurbs_surface3D_graph` or any other library, such as `geomdl`. |
+
+##  Features
+- Modeling of non-orientable surfaces using NURBS.  
+- Control over visualization parameters, including mesh display and *u*/*v* ranges for the NURBS surface S(u,v).  
+- Real-time 3D rendering powered by Plotly.  
+- Verification and error analysis for Möbius strip and Klein bottle.  
+
+##  Installation & Usage
+1. Download the **SuperficieNoOrientable.ipynb** file.  
+2. Open it in **Jupyter Notebook** or **Google Colab** (mount Google Drive to avoid accidental deletion of local files).  
+3. Run the notebook to generate and visualize non-orientable surfaces.  
+
+##  Folder Contents
+- `SuperficieNoOrientable.ipynb` – Main notebook.  
+- `images/` – Sample images of generated surfaces.
