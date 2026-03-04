@@ -7,11 +7,11 @@ The repository also includes a folder with sample images of these non-orientable
 ##  Classes
 | Class | Description |
 |-------|-------------|
-| **Bases_curvess** | Constructs B-Spline basis functions. |
+| **Bases_curves** | Constructs B-Spline basis functions. |
 | **Nurbs_curbs** | Builds NURBS curves. |
 | **Construccion** | Generates weights, knots, and control points for a circle of radius *a*. |
 | **Nurbs_surface** | Evaluates the NURBS surface from the control data. |
-| **Nurbs_surface3D_graph** | Visualizes NURBS surfaces using the control data. |
+| **Nurbs_superficie3D_graph** | Visualizes NURBS surfaces using the control data. |
 | **generation_data** | Core class: constructs control data for non-orientable surfaces. This data can be used with `Nurbs_surface3D_graph` or any other library, such as `geomdl`. |
 
 ##  Features
