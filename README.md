@@ -1,6 +1,6 @@
 # SurfaceNoOrientable_NURBS
 
-This repository contains the **SuperficieNoOrientable.ipynb** notebook, dedicated to generating control data and visualizing **non-orientable surfaces**. It includes an analysis of verification and error of the generated data for the Möbius strip and Klein bottle. Additional examples are provided to demonstrate that the **Generation_data** class is general and can handle any non-orientable surface defined topologically as a curve that is simultaneously rotated and twisted.  
+This repository contains the **SuperficieNoOrientable.ipynb** notebook, dedicated to generating control data and visualizing **non-orientable surfaces**. It includes an analysis of verification and error of the generated data for the Möbius strip and Klein bottle. Additional examples are provided to demonstrate that the **generation_data** class is general and can handle any non-orientable surface defined topologically as a curve that is simultaneously rotated and twisted.  
 
 The repository also includes a folder with sample images of these non-orientable surfaces, generated using the classes from the notebook.
 
@@ -12,7 +12,7 @@ The repository also includes a folder with sample images of these non-orientable
 | **Construccion** | Generates weights, knots, and control points for a circle of radius *a*. |
 | **Nurbs_surface** | Evaluates the NURBS surface from the control data. |
 | **Nurbs_surface3D_graph** | Visualizes NURBS surfaces using the control data. |
-| **Generation_data** | Core class: constructs control data for non-orientable surfaces. This data can be used with `Nurbs_surface3D_graph` or any other library, such as `geomdl`. |
+| **generation_data** | Core class: constructs control data for non-orientable surfaces. This data can be used with `Nurbs_surface3D_graph` or any other library, such as `geomdl`. |
 
 ##  Features
 - Modeling of non-orientable surfaces using NURBS.  
