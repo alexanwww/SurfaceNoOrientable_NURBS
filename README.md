@@ -7,8 +7,8 @@ The repository also includes a folder with sample images of these non-orientable
 ##  Classes
 | Class | Description |
 |-------|-------------|
-| **Bases_curves** | Constructs B-Spline basis functions. |
-| **Nurbs_curves** | Builds NURBS curves. |
+| **Bases_curvess** | Constructs B-Spline basis functions. |
+| **Nurbs_curbs** | Builds NURBS curves. |
 | **Construccion** | Generates weights, knots, and control points for a circle of radius *a*. |
 | **Nurbs_surface** | Evaluates the NURBS surface from the control data. |
 | **Nurbs_surface3D_graph** | Visualizes NURBS surfaces using the control data. |
