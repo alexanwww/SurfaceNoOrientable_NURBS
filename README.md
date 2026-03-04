@@ -5,7 +5,7 @@ Además, contiene una carpeta con algunas imágenes de estas superficies no orie
 **Clases**   
 ✔️ Bases_curves: Construye las funciones base B-Spline.  
 ✔️ Nurbs_curbs: Construye la curva Nurbs.  
-✔️ Construccion:   Construye pesos, nodos y puntos de control de una circunferencia.  
+✔️ Construccion:   Construye pesos, nodos y puntos de control de una circunferencia con radio $ a $.  
 ✔️ Nurbs_surface: Cosntruye la superficie Nurbs.  
 ✔️ Nurbs_NonOrientPy_graph: Permite visualizar las superficies no orientables.
 
